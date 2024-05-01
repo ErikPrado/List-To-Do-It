@@ -1,0 +1,438 @@
+@font-face { font-family: InterBold; src: url(/fonts/Inter-Bold.otf); }
+
+@font-face { font-family: InterSemiBold; src: url(/fonts/Inter-SemiBold.otf); }
+
+@font-face { font-family: InterMedium; src: url(/fonts/Inter-Medium.otf); }
+
+@font-face { font-family: InterRegular; src: url(/fonts/Inter-Regular.otf); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Primeira parte - Bem-vindo */
+.alert-welcome{
+    width: 100%;
+    height: 100vh;
+    background-color: #69696946;
+    position: absolute;
+    z-index: 99;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.alert-welcome .welcome-box{
+    width: 850px;
+    height: 380px;
+    background-color: #EEEDED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.alert-welcome .welcome-box h1{
+    font-family: InterBold;
+    font-size: 35px;
+
+}
+
+.alert-welcome .welcome-box p{
+    color: #616161;
+    font-family: InterMedium;
+}
+
+.alert-welcome .welcome-box .f-column{
+    width: 60%;
+    height: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alert-welcome .welcome-box button{
+    border: none;
+    border-radius: 10px;
+    background-color: #0775AB;
+    padding: 11px 34px;
+    color: white;
+    font-family: InterBold;
+    font-family: 15px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.alert-welcome .welcome-box input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+    font-family: InterMedium;
+    color: #8b8b8b;
+}
+
+.alert-welcome .welcome-box .subtxt{
+    width: 340px;
+    text-align: justify;
+}
+
+.alert-welcome .welcome-box .mintxt{
+    margin-top: 77px;
+    margin-bottom: 17px;
+    width: 340px;
+    text-align: justify;
+}
+
+.alert-welcome .welcome-box button:hover{
+    background-color: #05608d;
+}
+
+.alert-welcome .welcome-box .s-column{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Primeira parte - Bem-vindo */
+
+
+
+
+
+/* Segunda parte - Tarefas */
+.box-site{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 380px;
+    height: 100%;
+    margin-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+h1 {
+    font-family: InterBold;
+    font-family: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.line-dct{
+    width: 100%;
+    height: 4px;
+    background-color: rgba(217, 217, 217, 0.404);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: rgb(146,31,156);
+    background: linear-gradient(135deg, rgba(146,31,156,1) 32%, rgba(214,95,28,1) 100%);
+    padding: 30px;
+    position: relative;
+}
+
+.info-profile-size{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-profile-size .f-column{
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-profile-size .f-column .icon-size{
+    width: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-profile-size .f-column .icon-size i{
+    font-size: 30px;
+}
+
+.info-profile-size .s-column{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-profile-size .s-column h3{
+    color: #000;
+    font-size: 20px;
+    font-family: InterSemiBold;
+    margin-left: 10px;
+}
+
+.info-profile-size .s-column p {
+    color: #929292;
+    font-size: 15px;
+    font-family: InterMedium;
+    margin-left: 10px;
+}
+
+nav.txt-elements, nav.img-elements {
+    margin: 10px 0px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav.txt-elements ul .spc{
+    margin: 15px 0px;
+}
+
+nav.txt-elements ul li p, nav.img-elements ul li p  {
+    font-family: InterRegular;
+    font-size: 18px;
+    color: #000;
+}
+
+nav.img-elements .spc{
+    width: 100%;
+    height: 15px;
+}
+
+nav.img-elements ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+
+p.vrs{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #808080;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+main .info-size{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex: row;
+
+}
+
+main .info-size .f-column{
+    width: 50%;
+    height: 100%;
+}
+
+main .info-size .f-column h2{
+    color: #FFF;
+    font-family: InterBold;
+    font-size: 35px;;
+}
+
+main .info-size .f-column p{
+    color: #FFF;
+    font-family: InterMedium;
+    font-size: 14px;
+
+}
+
+main .info-size .s-column{
+    width: 50%;
+    height: 100%;
+}
+
+main .info-size .s-column .tools-size-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+main .info-size .s-column .tools-size-bar .btn-size{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .info-size .s-column .tools-size-bar .btn-size-g{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .info-size .s-column .tools-size-bar .btn-size-g svg{
+    margin: 0 15px;
+}
+
+
+main .info-size .s-column .tools-size-bar .btn-size:hover,main .info-size .s-column .tools-size-bar .btn-size-g:hover {
+    background-color: #ffffff38; 
+    cursor: pointer;
+    transition: .2s;
+}
+
+main .info-size .s-column .tools-size-bar .btn-size svg{
+    color: white;
+    width: 30px;
+}
+
+main .line-decoration{
+    background-color: #FFF;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+
+}
+
+main .wrapper {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin:30px 0px;
+}
+
+main .wrapper input{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff38; 
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: #FFF;
+    font-family: InterMedium;
+    font-size: 20px;
+}
+
+main .wrapper input:focus{
+    border: 3px solid #FFF;
+    outline: 0px solid #FFF;
+}
+
+main .wrapper input::placeholder{
+    color: #FFF;
+}
+
+main .wrapper button{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff00; 
+    color: #FFF;
+    position: absolute;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+main .wrapper button:hover .txt-btm-size{
+    top: 45px;
+    opacity: 1;
+
+}
+
+
+
+main .wrapper button .txt-btm-size{
+    background-color: white; 
+    font-family: InterMedium;
+    font-size: 15px;
+    color: #000;
+    padding: 5px 8px;
+    position: absolute;
+    border-radius: 5px;
+    right: -14px;
+    top: 35px;
+    opacity: 0;
+    transition: .2s;
+}
+
+main .wrapper button svg{
+    width: 50px;
+}
+
+main .content-size{
+    width: 100%;
+    height: 770px;
+}
+
+main .content-size .content-nothing-size{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .content-size .content-nothing-size p {
+    color: #ffffff3f;
+    font-family: InterRegular;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+main .content-size .content-nothing-size button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ffffff38; 
+    color: #ffffff81;
+    border: none;
+    cursor: pointer;
+    font-family: InterBold;
+}
+
+main .content-size .content-nothing-size button:hover{
+    background-color: #ffffff5b; 
+    transition: .2s;
+}
+/* Segunda parte - Tarefas */
